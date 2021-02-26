@@ -1,0 +1,3 @@
+# Arduino-Slovenian-Layout
+
+This is an Arduino keyboard.h library with Slovenian keyboard layout made for Arduino's with HID(human interface device) function like pro micro, ...
