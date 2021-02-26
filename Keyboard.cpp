@@ -120,15 +120,15 @@ const uint8_t _asciimap[128] =
 
 	0x2c,		   //  ' '
 	0x1e|SHIFT,	   // !
-	0x34|SHIFT,	   // "
+	0x1f|SHIFT,	   // "
 	0x20|SHIFT,    // #
 	0x21|SHIFT,    // $
 	0x22|SHIFT,    // %
-	0x24|SHIFT,    // &
+	0x23|SHIFT,    // &
 	0x34,          // '
-	0x26|SHIFT,    // (
-	0x27|SHIFT,    // )
-	0x25|SHIFT,    // *
+	0x25|SHIFT,    // (
+	0x26|SHIFT,    // )
+	0x2e|SHIFT,    // *
 	0x2e|SHIFT,    // +
 	0x36,          // ,
 	0x2d,          // -
