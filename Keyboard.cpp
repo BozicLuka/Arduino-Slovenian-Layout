@@ -118,66 +118,66 @@ const uint8_t _asciimap[128] =
 	0x00,             // RS 
 	0x00,             // US 
 
-	0x2c,		   //  ' '
-	0x1e|SHIFT,	   // !
-	0x1f|SHIFT,	   // "
-	0x20|SHIFT,    // #
-	0x21|SHIFT,    // $
-	0x22|SHIFT,    // %
-	0x23|SHIFT,    // &
-	0x34,          // '
-	0x25|SHIFT,    // (
-	0x26|SHIFT,    // )
-	0x2e|SHIFT,    // *
-	0x2e|SHIFT,    // +
-	0x36,          // ,
-	0x2d,          // -
-	0x37,          // .
-	0x24|SHIFT,    // /
-	0x27,          // 0
-	0x1e,          // 1
-	0x1f,          // 2
-	0x20,          // 3
-	0x21,          // 4
-	0x22,          // 5
-	0x23,          // 6
-	0x24,          // 7
-	0x25,          // 8
-	0x26,          // 9
-	0x37|SHIFT,      // :
-	0x33,          // ;
-	0x36|SHIFT,      // <
-	0x27|SHIFT,          // =
-	0x33|SHIFT,      // >
-	0x2d|SHIFT,      // ?
+	0x2c,		   //  ' ' 44
+	0x1e|SHIFT,	   // ! 30
+	0x1f|SHIFT,	   // " 31
+	0x20|SHIFT,    // # 32
+	0x21|SHIFT,    // $ 33
+	0x22|SHIFT,    // % 34
+	0x23|SHIFT,    // & 35
+	0x2d,          // ' 52
+	0x25|SHIFT,    // ( 37
+	0x26|SHIFT,    // ) 38
+	0x2e|SHIFT,    // * 46
+	0x2e,    // + 46
+	0x36,          // , 54
+	0x38,          // - 45
+	0x37,          // . 55
+	0x24|SHIFT,    // / 36
+	0x27,          // 0 39
+	0x1e,          // 1 30
+	0x1f,          // 2 31
+	0x20,          // 3 32
+	0x21,          // 4 33
+	0x22,          // 5 34
+	0x23,          // 6 35
+	0x24,          // 7 36
+	0x25,          // 8 37
+	0x26,          // 9 38
+	0x37|SHIFT,      // : 55
+	0x36|SHIFT,          // ; 54
+	0x36|SHIFT,      // < 
+	0x27|SHIFT,          // = 39
+	0x33|SHIFT,      // > 
+	0x2d|SHIFT,      // ? 45
 	0x1f|SHIFT,      // @
-	0x04|SHIFT,      // A
-	0x05|SHIFT,      // B
-	0x06|SHIFT,      // C
-	0x07|SHIFT,      // D
-	0x08|SHIFT,      // E
-	0x09|SHIFT,      // F
-	0x0a|SHIFT,      // G
-	0x0b|SHIFT,      // H
-	0x0c|SHIFT,      // I
-	0x0d|SHIFT,      // J
-	0x0e|SHIFT,      // K
-	0x0f|SHIFT,      // L
-	0x10|SHIFT,      // M
-	0x11|SHIFT,      // N
-	0x12|SHIFT,      // O
-	0x13|SHIFT,      // P
-	0x14|SHIFT,      // Q
-	0x15|SHIFT,      // R
-	0x16|SHIFT,      // S
-	0x17|SHIFT,      // T
-	0x18|SHIFT,      // U
-	0x19|SHIFT,      // V
-	0x1a|SHIFT,      // W
-	0x1b|SHIFT,      // X
-	0x1c|SHIFT,      // Y
-	0x1d|SHIFT,      // Z
-	0x2f,          // [
+	0x04|SHIFT,      // A 4
+	0x05|SHIFT,      // B 5
+	0x06|SHIFT,      // C 6
+	0x07|SHIFT,      // D 7
+	0x08|SHIFT,      // E 8
+	0x09|SHIFT,      // F 9
+	0x0a|SHIFT,      // G 10
+	0x0b|SHIFT,      // H 11
+	0x0c|SHIFT,      // I 12
+	0x0d|SHIFT,      // J 13
+	0x0e|SHIFT,      // K 14
+	0x0f|SHIFT,      // L 15
+	0x10|SHIFT,      // M 16
+	0x11|SHIFT,      // N 17
+	0x12|SHIFT,      // O 18
+	0x13|SHIFT,      // P 19
+	0x14|SHIFT,      // Q 20
+	0x15|SHIFT,      // R 21
+	0x16|SHIFT,      // S 22
+	0x17|SHIFT,      // T 23
+	0x18|SHIFT,      // U 24
+	0x19|SHIFT,      // V 25
+	0x1a|SHIFT,      // W 26
+	0x1b|SHIFT,      // X 27
+	0x1d|SHIFT,      // Y 28
+	0x1c|SHIFT,      // Z 29
+	0x09,          // [ //2f
 	0x31,          // bslash
 	0x30,          // ]
 	0x23|SHIFT,    // ^
@@ -207,8 +207,8 @@ const uint8_t _asciimap[128] =
 	0x19,          // v
 	0x1a,          // w
 	0x1b,          // x
-	0x1c,          // y
-	0x1d,          // z
+	0x1d,          // y
+	0x1c,          // z
 	0x2f|SHIFT,    // {
 	0x31|SHIFT,    // |
 	0x30|SHIFT,    // }
